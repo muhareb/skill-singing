@@ -31,10 +31,10 @@ class SingingSkill(MycroftSkill):
         self.play_list = {
             0: join(dirname(__file__), "p0.mp3"),
             1: join(dirname(__file__), "p1.mp3"),
-            2: join(dirname(__file__), "p0.mp3"),
-            3: join(dirname(__file__), "p1.mp3"),
-            4: join(dirname(__file__), "p0.mp3"),
-            5: join(dirname(__file__), "p1.mp3"),
+            2: join(dirname(__file__), "p2.mp3"),
+            3: join(dirname(__file__), "p3.mp3"),
+            4: join(dirname(__file__), "p4.mp3"),
+            5: join(dirname(__file__), "p5.mp3"),
         }
 
     def initialize(self):
